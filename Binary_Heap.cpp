@@ -22,7 +22,7 @@ void fun1(int num)//bottom-up insert
 }
 void fun2(int i)//top-down heapify
 {
-    int smallest=i;if(2*i+1<size &&a[i]>a[2*i+1]) smallest=2*i+1;if(2*i+2<size && a[i]>a[2*i+2])smallest=2*i+2;
+    int smallest=i;if(2*i+1<size &&a[i]>a[2*i+1]) smallest=2*i+1;if(2*i+2<size && a[smallest]>a[2*i+2])smallest=2*i+2;
     
     if(smallest!=i)
     {
