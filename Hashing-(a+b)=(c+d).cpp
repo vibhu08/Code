@@ -14,7 +14,7 @@ int main()
       {
           
           int sum=a[i]+a[j];
-          if(m.find(sum)!=m.end())
+          if(m.find(sum)!=m.end())                                                       //For distinct condition (i&j!=a[sum].first,a[sum].second)
           {
               cout << i << j << m[sum].first << m[sum].second << endl;
            }
