@@ -47,7 +47,8 @@ int main()
               {
                   saddness=saddness-max;
                   v[index].y--;
-               
+                if(v[index].y==0)
+                  v.erase(v.begin()+index);
               }
          
         }
