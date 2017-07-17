@@ -53,6 +53,8 @@ bool fun2(node* root,int num)//ancestor
         cout << root->data << endl;
         return true;
     }
+    else
+       return false;
 
 }
 
